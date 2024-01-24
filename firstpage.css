@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+nav {
+    background-color: #f4f4f4;
+    padding: 20px 0; /* Increase the vertical padding */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Add or modify styles as needed */
+/* Add or modify styles as needed */
+.content-section {
+    flex: 1;
+    display: flex;
+    padding: 20px;
+}
+
+.content-part {
+    text-align: center;
+    flex: 1; /* Each content part takes equal space */
+    border-right: 2px solid #ccc; /* Add a vertical border between the content parts */
+    padding: 0 20px; /* Add some padding for better spacing */
+}
+
+.content-part:last-child {
+    border-right: none; /* Remove the border from the last content part */
+}
+
+.content-part h2 {
+    color: #333;
+}
+
+.content-part p {
+    color: #555;
+    margin: 10px 0;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: auto;
+}

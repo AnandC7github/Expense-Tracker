@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/first.css"> <!-- Adjusted the CSS path -->
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <h1>Welcome to Expense Tracker</h1>
+    <a href="{{ url_for('expenses') }}">View Expenses</a>
+
+    <!-- Add Sign In Button -->
+    <button onclick="location.href='{{ url_for('signin') }}'">Sign In</button>
+
+    <!-- Add Sign Up Hyperlink -->
+    <p>If you don't have an account, <a class="signup-link" href="{{ url_for('signup') }}">Sign Up</a></p>
+</body>
+</html>
